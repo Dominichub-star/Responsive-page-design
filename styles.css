@@ -1,0 +1,1039 @@
+@font-face {
+    font-family: 'clash-semibold';
+    src: url(OTF/ClashDisplay-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'clash-medium';
+    src: url(OTF/ClashDisplay-Medium.otf);
+}
+
+@font-face {
+    font-family: 'clash-regular';
+    src: url(OTF/ClashDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: 'sans-semibold';
+    src: url(source-sans-pro/SourceSansPro-Semibold.ttf);
+}
+@font-face {
+    font-family: 'clash-light';
+    src: url(OTF/ClashDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: 'inter-semibold';
+    src: url(inter-webfont/Inter-SemiBold.woff);
+}
+
+.error-div {
+    margin-left: 197px;
+    display: flex;
+    justify-items: center;
+    text-align: left;
+  }
+
+  .error-text {
+    color: #c81e1e;
+    margin-left: 20px;
+    font-family: 'inter-semibold';
+    font-weight: 600;
+    font-size: 0.9vw;
+    font-weight: 600;
+  }
+  
+  #cancel-icon {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    display: block;
+    cursor: pointer;
+    top: 10px;
+    right: -10vw;
+   margin-top: 1.7vh;
+   margin-left: 15px;
+   
+  
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 10.2vh;
+    gap:2vw
+}
+.div1 {
+    margin-top: 19vh;
+    grid-column: 2;
+    grid-row: 1/8;
+    width: 40vw;
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url(Register/Frame\ 1000005053.png);
+    border-radius: 30px;
+}
+.div2 {
+    margin-top: 19vh;
+    grid-column: 1;
+    grid-row: 1 / 1;
+    width: 25vw;
+    height: 9vh;
+    margin-left: 4.875rem;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.welcome-text {
+    font-size: 1.9vw; 
+    margin-top: -0.5vw;
+    font-family: 'clash-semibold';
+    font-weight: 600;
+    color: #010101;
+
+  }
+  
+  .create-account-text {
+    font-size: 1vw;
+    margin-bottom: 0%; 
+    margin-top: -2vh;
+    font-family: 'sans-regular';
+    color:#667185;
+  }
+
+  .create-account-link {
+    color: #ea3977;
+    text-decoration: none;
+ }
+
+.div3 {
+    grid-column: 1;
+    width: 38vw;
+    height: 7vh;
+    margin-top: -7vh;
+    margin-left: 4.875rem;
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    border-color: #D7DAE0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    cursor: pointer;
+}
+
+.google-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(Login/image\ 1.png);
+ }
+
+ .google-login-text {
+    font-family: 'clash-medium';
+    font-weight: 500;
+    font-size: 16px;
+ }
+
+.div4 {
+    grid-column: 1;
+    width: 38vw;
+    margin-top: -9vh;
+    height: 0.1vh;
+    background-color: #f5f5f5;
+    margin-left: 4.875rem;
+}
+.div5 {
+    grid-column: 1;
+    width: 38vw;
+    margin-top: -18vh;
+    height: 12vh;
+    margin-left: 4.875rem;
+    display: flex;
+    flex-direction: column;
+}
+.email-text {
+    display: block;
+    margin-top: 0%;
+    font-family: 'clash-medium';
+    font-weight: 500;
+    margin-bottom: 3vh;
+}
+.email-input {
+    display: block;
+    height: 30vh;
+    margin-top: -2vh;
+    position: relative;
+    border-radius: 8px;
+    padding-left: 1vw;
+    border: 1px solid #d7dae0;
+    font-family: 'clash-regular';
+    font-size: 16px;
+}
+.email-input:focus{
+    border: 1px solid #0257ee;
+    outline: none;
+    font-family: 'clash-regular';
+    font-size: 16px;
+    background-color: #f9fafb;
+}
+
+
+.email-message {
+    display: block;
+    min-height: 20px;
+    font-family: 'sans-semibold';
+}
+
+
+
+.div6 {
+    grid-column: 1;
+    width: 38vw;
+    height: 12vh;
+    margin-left: 4.875rem;
+    margin-top: -16vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.password-text {
+    display: block;
+    margin-top: 0%;
+    font-family: 'clash-medium';
+    margin-bottom: 2.7vh;
+}
+.password-message {
+    display: block;
+    min-height: 20px;
+    font-family: 'sans-semibold';
+}
+.password-input-wrapper {
+    width: 36.4vw;
+    height: 19vh !important;
+    margin-top: -0.5vw;
+    bottom: 0;
+    font-family: 'clash-reguler';
+    outline: none;
+    position: relative;
+    display: block;
+}
+
+.eye-open-icon {
+    background-image: url(Register/vuesax.png);
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+ 
+ }
+ .eye-open-icon.show {
+    background-image: url(Register/closed\ eye.png);
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+ 
+ }
+
+ .password-input {
+    width: 100%;
+    height: 42px;
+    bottom: 0;
+    margin-top: -5px;
+    padding-left: 20px;
+    font-family: 'clash-reguler';
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    outline: none;
+    border-color: #D7DAE0;
+ }
+
+ .password-input:focus {
+    width: 100%;
+    height: 42px;
+    bottom: 0;
+    margin-top: -5px;
+    padding-left: 20px;
+    font-family: 'clash-reguler';
+    font-weight: 400;
+    font-size: 16px;
+    border: solid;
+    outline: none;
+    border-width: 1px;
+    border-color: #0257ee;
+    background-color: #f9fafb;
+ }
+
+.div7 {
+    grid-column: 1;
+    width: 38vw;
+    height: 6vh;
+    margin-top: 5vh;
+    margin-left: 4.875rem;
+    margin-top: -10vh;
+    background-color: #0257ee;
+   border-radius: 30px;
+   display: flex;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.sign-in {
+    font-family: 'clash-light';
+    color: #f6f7f9;
+    margin-top: 1.3vh;
+   }
+
+.div8 {
+    grid-column: 1;
+    width: 38vw;
+    height: 3vh;
+    margin-left: 4.875rem;
+    margin-top: -13vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'clash-medium';
+    font-weight: 500;
+    font-size: 1vw;
+    color: #667185;
+
+}
+
+a {
+    text-decoration:none;
+    color: #667185;
+  }
+
+
+
+@media only screen and (width: 375px) and (height: 667px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 3VW;
+        padding-bottom: 60vw;
+    }
+
+    .div1 {
+        grid-column: 1;
+        display: none;
+    }
+
+    
+    .email-text {
+        margin-bottom: 2vh !important;
+    }
+    .password-text{
+        margin-bottom: 2.5vh !important;
+    }
+
+    .email-input {
+       height: 10vh !important;
+       margin-top: 3vh !important;
+    }
+    .email-input:focus {
+        height: 10vh !important;
+     }
+  
+    .password-input {
+        margin-top: -9vh !important;
+        width: 84.7vw !important;
+    }
+    .password-input:focus {
+        margin-top: -9vh !important;
+    }
+    .eye-open-icon {
+        margin-top: -1vh !important;
+    }
+    .eye-open-icon.show {
+        margin-top: -1vh !important;
+    }
+    
+  }
+
+
+/* Smartphone (portrait) 480px.....when the height is greater than width */
+@media only screen and (max-width: 30rem) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 3VW;
+        padding-bottom: 60vw;
+    }
+
+    .div1 {
+        grid-column: 1;
+        display: none;
+    }
+
+  
+
+
+    .error-text {
+        display: block;
+        margin-top: 5vw !important;
+        font-size: 2.4vw !important ;
+    }
+
+    #cancel-icon {
+        margin-top: 1.8vh !important;
+        height: 4.5vh !important;
+        width: 4.5vw !important;
+        margin-top: 1.9vh !important;
+        background-repeat: no-repeat !important;
+        margin-left: -1vw !important;
+    }
+
+
+    .div2{
+        margin-top: 16vw;
+        width: 70vw;
+        margin-left: 2vw;
+        height: 7.5vh !important;
+
+    }
+
+    
+.welcome-text {
+    font-size: 6.3vw; 
+
+  }
+  
+  .create-account-text {
+    font-size: 3vw;
+    
+  }
+
+    .div3{
+        margin-top: 5vh;
+        margin-left: 2vw;
+        width: 91vw;
+        height: 8.2vh;
+        gap:4vw;
+    }
+    .div4{
+        margin-top: 2vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .div5{
+        margin-top: 3vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .email-text{
+        font-size: 4vw !important;
+        margin-bottom: 1vh;
+    }
+     
+    .email-input{
+        height: 7vh !important;
+        margin-top: -1vh;
+        padding-left: 3.5vw;
+    }
+    .email-input:focus{
+        height: 7vh !important;
+        margin-top: -1vh;
+        padding-left: 3.5vw;
+    }
+    .email-message {
+        margin-bottom: 0 !important;
+        font-size: 4vw !important;
+    }
+
+    .div6{
+        margin-top: 4vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+.password-input {
+    height: 6vh;
+}
+.password-input:focus {
+    height: 6vh;
+}
+    .password-input-wrapper {
+        width: 84.8vw !important;
+        margin-top: -0.5vh !important;
+    }
+    .eye-open-icon {
+        margin-top: -0.8vh;
+    }
+    .eye-open-icon.show {
+        margin-top: -0.8vh;
+    }
+    .password-message {
+        margin-top: -0.5vh;
+        font-size: 4vw !important;
+    }
+    .password-text {
+        font-size: 4vw !important;
+        margin-bottom: 1vh;
+    }
+   
+
+    .div7{
+        margin-top: 7vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .div8{
+        margin-top: 3vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    
+    
+        
+
+   
+  }
+  
+  @media only screen and (max-width: 545px) and (max-height: 725px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 3VW;
+        padding-bottom: 60vw;
+    }
+
+    .div1 {
+        grid-column: 1;
+        display: none;
+    }
+
+
+    .password-text {
+        font-size: 1vw !important; 
+        margin-bottom: 10px;
+    }
+    .password-input {
+    WIDTH : 87vw
+    }
+    .password-input:focus {
+        WIDTH : 87vw
+        }
+   .email-text {
+    font-size: 3.5vw !important;
+   }
+   .email-input {
+   
+    margin-top: -1.6vh !important;
+   }
+   .email-input:focus {
+   
+    margin-top: -1.6vh !important;
+   }
+   .email-message {
+    font-size:  4vw !important;
+   }
+   
+  } 
+
+  /* Smartphone (landscape) 640px.....when the width is greater than height */
+  @media only screen and (max-width: 40rem) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .div1 {
+        grid-column: 1;
+        display: none;
+    }
+
+    .error-div {
+        margin-left: 10vw;
+        width: 65vw !important;
+    }
+    .error-text {
+        margin-top: 2.3vh;
+        font-size: 2.5vw;
+    }
+    #cancel-icon {
+        margin-right: 2vw;
+    }
+
+    .div2{
+        margin-top: 16vw;
+        width: 70vw;
+        margin-left: 2vw;
+        height: 10.5vh;
+
+    }
+
+    .welcome-text {
+        font-size: 5.2vw !important; 
+    
+      }
+      
+      .create-account-text {
+        font-size: 3vw;
+        
+      }
+    .div3{
+        margin-top: 5vh;
+        margin-left: 2vw;
+        width: 91vw;
+        height: 8.2vh;
+        gap:4vw;
+    }
+    .div4{
+        margin-top: 2vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .div5{
+        margin-top: 3vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .email-text{
+        font-size: 4vw;
+    }
+    .email-input{
+        height: 7vh !important;
+        margin-top: -1vh;
+        padding-left: 3.5vw;
+    }
+    .email-input:focus{
+        height: 7vh !important;
+        margin-top: -1vh;
+        padding-left: 3.5vw;
+    }
+    .email-message {
+        margin-bottom: 0 !important;
+    }
+
+    .div6{
+        margin-top: 4vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .password-input {
+        height: 6vh;
+    }
+    .password-input:focus {
+        height: 6vh;
+    }
+        .password-input-wrapper {
+            width: 84.8vw !important;
+            margin-top: -0.5vh !important;
+        }
+        .eye-open-icon {
+            margin-top: -0.8vh;
+        }
+        .eye-open-icon.show {
+            margin-top: -0.8vh;
+        }
+        .password-message {
+            margin-top: -0.5vh;
+            font-size: 4vw !important;
+        }
+        .password-text {
+            font-size: 4vw !important;
+        }
+    .div7{
+        margin-top: 7vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .div8{
+        margin-top: 3vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    
+
+
+  
+  }
+  
+  /* Tablet (portrait) 768px.....for bigger screen */
+  @media only screen and (max-width: 48rem) {
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .div1 {
+        grid-column: 1;
+        display: none;
+    }
+
+
+    .div2{
+        margin-top: 16vw;
+        width: 70vw;
+        margin-left: 2vw;
+        height: 10.5vh;
+
+    }
+
+    .welcome-text {
+        font-size: 6.2vw; 
+    
+      }
+      
+      .create-account-text {
+        font-size: 3.2vw;
+        
+      }
+
+    .div3{
+        margin-top: 5vh;
+        margin-left: 2vw;
+        width: 91vw;
+        height: 8.2vh;
+        gap:4vw;
+    }
+    .div4{
+        margin-top: 2vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .div5{
+        margin-top: 3vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .email-text {
+        font-size: 2.5vw ;
+        margin-bottom: 1.5vh;
+    }
+    .email-input{
+        height: 6vh !important;
+        margin-top: -1vh;
+        padding-left: 3.5vw;
+    }
+    .email-message {
+        margin-bottom: 0 !important;
+        font-size: 3vw;
+    }
+
+    .div6{
+        margin-top: 4vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .password-text {
+        font-size: 2.5vw;
+        margin-bottom: 1.8vh;
+    }
+
+    .password-input {
+        height: 6vh;
+    }
+    .password-input:focus {
+        height: 6vh;
+    }
+        .password-input-wrapper {
+            width: 88vw;
+            margin-top: -1vh;
+        }
+        .eye-open-icon {
+            margin-top: -0.6vh;
+        }
+        .eye-open-icon.show {
+            margin-top: -0.6vh;
+        }
+        .password-message {
+            margin-bottom: 3vh !important;
+            font-size: 2.5vw;
+        }
+
+    .div7{
+        margin-top: 7vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .div8{
+        margin-top: 3vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+   
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .div1 {
+        grid-column: 1;
+        display: none;
+    }
+     
+    .error-div {
+        display: flex !important;
+        flex-direction: row !important;
+        gap:5vw !important;
+    }
+    .error-text {
+        font-size: 1.4vw;
+    }
+  
+
+    .div2{
+        margin-top: 16vw;
+        width: 70vw;
+        margin-left: 2vw;
+        height: 10.5vh;
+
+    }
+
+    .welcome-text {
+        font-size: 5.3vw !important; 
+    
+      }
+      
+      .create-account-text {
+        font-size: 3vw;
+        
+      }
+
+    .div3{
+        margin-top: 5vh;
+        margin-left: 2vw;
+        width: 91vw;
+        height: 8.2vh;
+        gap:4vw;
+        
+    }
+
+    .google-login-text {
+     font-size: 3.5vw;
+    }
+
+    .google-icon {
+        width: 5vw;
+        height: 6vh;
+        background-repeat: no-repeat;
+        background-image: url(Login/image\ 1.png);
+        background-size: contain;
+        background-position: center;
+    }
+
+    .div4{
+        margin-top: 2vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .div5{
+        margin-top: 3vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+  .email-input {
+    height: 6vh !important;
+    margin-top: -2vw;
+  }
+  .email-input:focus {
+    height: 6vh !important;
+    margin-top: -2vw;
+  }
+
+
+  .email-text {
+    font-size: 2.5vw;
+    margin-bottom: 1.3vh;
+  }
+  .email-message {
+    font-size: 2.4vw;
+  }
+
+    .div6{
+        margin-top: 4vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .password-text {
+        font-size: 2.5vw;
+        margin-bottom: 1.3vh;
+    }
+
+    .password-input {
+        height: 6vh;
+    }
+    .password-input:focus {
+        height: 6vh;
+    }
+        .password-input-wrapper {
+            width: 88vw;
+            margin-top: -1vh;
+        }
+        .eye-open-icon {
+            margin-top: -0.6vh;
+        }
+        .eye-open-icon.show {
+            margin-top: -0.6vh;
+        }
+        .password-message {
+            margin-bottom: 3vh !important;
+            font-size: 2.5vw;
+        }
+    .div7{
+        margin-top: 7vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .div8{
+        margin-top: 3vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+   
+  }
+
+  
+  @media only screen and (max-width: 1024px) {
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .div1 {
+        grid-column: 1;
+        display: none;
+    }
+
+    .error-div {
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+
+    }
+    .error-text {
+        display: block;
+        margin-top: 2vw;
+        font-size: 1.1vw ;
+    }
+    #cancel-icon {
+        display: block;
+        margin-top: 1.3vh;
+    }
+
+    .div2{
+        margin-top: 16vw;
+        width: 70vw;
+        margin-left: 2vw;
+        height: 10.5vh;
+
+    }
+
+    .welcome-text {
+        font-size: 5.3vw !important; 
+    
+      }
+      
+      .create-account-text {
+        font-size: 3vw;
+        
+      }
+      
+    .div3{
+        margin-top: 5vh;
+        margin-left: 2vw;
+        width: 91vw;
+        height: 8.2vh;
+    }
+    .google-login-text {
+        font-size: 3.5vw;
+       }
+   
+       .google-icon {
+           width: 5vw;
+           height: 6vh;
+           background-repeat: no-repeat;
+           background-image: url(Login/image\ 1.png);
+           background-size: contain;
+           background-position: center;
+       }
+
+    .div4{
+        margin-top: 2vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .div5{
+        margin-top: 3vh;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+
+    .email-input {
+        height: 6vh !important;
+        margin-top: -2vw;
+      }
+      .email-focus {
+        height: 6vh !important;
+        margin-top: -2vw;
+      }
+    
+      .email-text {
+        font-size: 2.5vw;
+        margin-bottom: 1.5vh;
+      }
+      .email-message {
+        font-size: 2.4vw;
+      }
+    .div6{
+        margin-top: 1vh !important;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .password-text {
+        font-size: 2.5vw;
+        margin-bottom: 1.5vh;
+    }
+
+    .password-input {
+        height: 6vh;
+    }
+    .password-input:focus {
+        height: 6vh;
+    }
+        .password-input-wrapper {
+            width: 88.7vw;
+            margin-top: -1vh;
+        }
+        .eye-open-icon {
+            margin-top: -0.6vh;
+        }
+        .eye-open-icon.show {
+            margin-top: -0.6vh;
+        }
+        .password-message {
+            margin-bottom: 3vh !important;
+            font-size: 2.5vw;
+        }
+    .div7{
+        margin-top: 4vh !important;
+        margin-left: 2vw;
+        width: 91vw;
+    }
+    .sign-in {
+        font-family: 'clash-light';
+        color: #f6f7f9;
+       }
+    .div8{
+        margin-top: -0.5vh !important;
+        margin-left: 2vw;
+        width: 91vw;
+        font-size: 3vw;
+    }
+
+   
+   
+  }
+  
+
+  
