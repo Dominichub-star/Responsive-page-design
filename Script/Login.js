@@ -72,7 +72,7 @@ click.addEventListener('click', () => {
     emailInput.style.borderColor = "#fa2b2b";
     emailInput.style.color = "#fa2b2b";
     emailInput.style.backgroundColor = '#fdf2f2';
-    emailInput.style.backgroundImage = 'url(Register/wrong.png)';
+    emailInput.style.backgroundImage = 'url(../Images/wrong.png)';
     emailInput.style.backgroundRepeat = 'no-repeat';
     emailInput.style.backgroundPosition = 'right 25px center';
     messageEmailElement.innerHTML = "Email Incorrect"
@@ -85,7 +85,7 @@ click.addEventListener('click', () => {
     emailInput.style.borderColor = "#fa2b2b";
     emailInput.style.color = "#fa2b2b";
     emailInput.style.backgroundColor = '#fdf2f2';
-    emailInput.style.backgroundImage = 'url(Register/wrong.png)';
+    emailInput.style.backgroundImage = 'url(../Images/wrong.png)';
     emailInput.style.backgroundRepeat = 'no-repeat';
     emailInput.style.backgroundPosition = 'right 25px center';
     messageEmailElement.innerHTML = "Please  fill in the field"
@@ -126,7 +126,7 @@ click.addEventListener('click', () => {
     emailInput.style.backgroundColor = '#f3faf7';
     emailInput.style.color = '#2ac940';
     emailInput.style.borderColor = '#2ac940';
-    emailInput.style.backgroundImage = 'url(Register/check.png)';
+    emailInput.style.backgroundImage = 'url(../Images/check.png)';
     emailInput.style.backgroundRepeat = 'no-repeat';
     emailInput.style.backgroundPosition = 'right 25px center';
     messageEmailElement.innerHTML = "Email Correct";
@@ -134,6 +134,10 @@ click.addEventListener('click', () => {
     input.style.borderColor = '#2ac940';
     input.style.color = '#2ac940';
     input.style.backgroundColor = "#f3faf7";
+
+     setTimeout(() => {
+            window.location.href = 'index.html';
+        }, 2000); 
     
    }
 
@@ -144,7 +148,7 @@ click.addEventListener('click', () => {
      errorMessage.innerHTML = "incorrect email address or password";
 
      const cancelIcon = document.getElementById('cancel-icon');
-     cancelIcon.style.backgroundImage = "url('Register/red.png')";
+     cancelIcon.style.backgroundImage = "url(../Images/red.png)";
   
      cancelIcon.style.width = "20px";
      cancelIcon.style.height = "20px";
